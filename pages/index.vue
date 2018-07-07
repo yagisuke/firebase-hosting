@@ -2,15 +2,11 @@
   <section class="container">
     <div>
       <logo/>
-      <h1 class="title">
-        firebase-hosting
-      </h1>
-      <h2 class="subtitle">
-        My good Nuxt.js project
-      </h2>
+      <h1 class="title">firebase-hosting</h1>
+      <h2 class="subtitle">My good Nuxt.js project</h2>
       <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
+        <a href="https://github.com/yagisuke/firebase-hosting/blob/master/README.md" target="_blank" class="button--green">Documentation</a>
+        <a href="https://github.com/yagisuke/firebase-hosting" target="_blank" class="button--grey">GitHub</a>
       </div>
     </div>
   </section>
