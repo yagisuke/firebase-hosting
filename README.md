@@ -1,22 +1,18 @@
-# firebase-hosting
+# 何やったか
+https://dotinstall.com/lessons/hosting_firebase
+を通して、firebase hosting の使い方について学んだ
 
-> My good Nuxt.js project
-
-## Build Setup
-
+# 行なった手順
 ``` bash
-# install dependencies
+// Nuxt でやってみた
+$ yarn create nuxt-app firebase-hosting
+$ cd firebase-hosting
 $ yarn install
 
-# serve with hot reload at localhost:3000
-$ yarn run dev
-
-# build for production and launch server
-$ yarn run build
-$ yarn start
-
-# generate static project
-$ yarn run generate
+// firebase でプロジェクト作った後に以下を実行
+$ yarn global add firebase-tools
+$ firebase login // firebase にログイン
+$ firebase init // hosting サービスを使うよとか、公開するディレクトリの指定とかの設定を行なった
+$ yarn generate // 公開ディレクトリにファイルを生成
+$ firebase deploy // 公開
 ```
-
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
