@@ -59,5 +59,12 @@ module.exports = {
         })
       }
     }
+  },
+
+  /*
+  ** Generate settings
+  */
+  generate: {
+    dir: 'public'
   }
 }
